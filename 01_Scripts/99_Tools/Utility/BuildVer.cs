@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Blackfoot.Tools
+namespace Blacktool.Utils
 {
     [CreateAssetMenu(fileName = "BuildVer", menuName = "App/BuildVer")]
     public class BuildVer : ScriptableObject

@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Core.Backend.API
+namespace Blacktool.Backend.API.Store
 {
     public class FakeStore : APIStore
     {

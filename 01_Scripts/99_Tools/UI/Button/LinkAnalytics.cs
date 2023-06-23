@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UI.Interactable.ButtonElement
+namespace Blacktool.UI.Interactable.ButtonElement
 {
     /// <summary>
     /// Call analytics when the user is clicking on a link

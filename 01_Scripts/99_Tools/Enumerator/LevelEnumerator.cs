@@ -1,7 +1,11 @@
-public enum LevelLoading
+namespace Blacktool.Enum
 {
-    PREVIOUSLEVEL,
-    RELOADLEVEL,
-    NEXTLEVEL,
-    FIRSTLEVEL
+    public enum LevelLoading
+    {
+        PREVIOUSLEVEL,
+        RELOADLEVEL,
+        NEXTLEVEL,
+        FIRSTLEVEL
+    }
 }
+

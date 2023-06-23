@@ -1,7 +1,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace Blackfoot.Tools.Utility
+namespace Blacktool.Utils
 {
     /// <summary>
     /// Class used to take screenshots of the cards

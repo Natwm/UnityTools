@@ -1,6 +1,11 @@
-using Tools.Pattern;
+using Blacktool.Enum;
+using Blacktool.Patterns;
 
-public class GameManager : Singleton<GameManager>
+namespace Blacktool.Manager
 {
-    public GameStatus Status;
+    public class GameManager : Singleton<GameManager>
+    {
+        public GameStatus Status;
+    }
 }
+

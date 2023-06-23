@@ -1,6 +1,9 @@
-public enum GameStatus
+namespace Blacktool.Enum
 {
-    NONE,
-    RUNNING,
-    PAUSED
+    public enum GameStatus
+    {
+        NONE,
+        RUNNING,
+        PAUSED
+    }    
 }

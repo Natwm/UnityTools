@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Blackfoot.Tools.Utility
+namespace Blacktool.Utils
 {
     [ExecuteInEditMode]
     public class RatioHandler : MonoBehaviour

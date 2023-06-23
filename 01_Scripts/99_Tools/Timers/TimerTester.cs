@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Utils.Tools
+namespace Blacktool.Utils.Tools
 {
     public class TimerTester : MonoBehaviour
     {

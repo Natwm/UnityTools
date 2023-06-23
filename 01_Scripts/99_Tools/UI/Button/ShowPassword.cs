@@ -3,7 +3,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+namespace Blacktool.UI.Interactable.ButtonElement
+{
     /// <summary>
     /// This class is used to switch a inputfiel between Standard and password mode
     /// </summary>
@@ -54,3 +55,4 @@ using UnityEngine.UI;
 
         #endregion // Public methods
     }
+}
