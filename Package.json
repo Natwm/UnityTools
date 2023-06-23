@@ -1,0 +1,17 @@
+{
+  "name": "BlackTool",
+  "version": "1.0.0",
+  "displayName": "BlackTool",
+  "description": "Outils unity dev by Nathan Mezza",
+  "unity": "2019.4",
+  "author": {
+    "name": "Nathan Mezza",
+    "email": "nathan.mezza.pro@outlook.com"
+  },
+  "keywords": [
+    "Unity",
+    "Package"
+  ],
+  "dependencies": {
+  }
+}
