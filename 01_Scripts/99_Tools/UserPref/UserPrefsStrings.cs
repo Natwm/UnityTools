@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Blackfoot.Tools.SPref
+namespace Blacktool.Utils.PlayerPref
 {
     /// <summary>
     /// This class is used to store every key used for PlayerPrefs (or Sprefs)

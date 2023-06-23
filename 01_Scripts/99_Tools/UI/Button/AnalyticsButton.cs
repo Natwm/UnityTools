@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UI.Interactable.Button
+namespace Blacktool.UI.Interactable.ButtonElement
 {
     public class AnalyticsButton : MonoBehaviour
     {

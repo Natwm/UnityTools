@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Utils.Tools
+namespace Blacktool.Utils.Tools
 {
     public class TimerManager : MonoBehaviour
     {

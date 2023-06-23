@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-namespace UI
+namespace Blacktool.UI
 {
     public class SafeAreaKeyboard : MonoBehaviour
     {

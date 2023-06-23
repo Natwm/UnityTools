@@ -1,16 +1,20 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// This class is used to open url link
-/// </summary>
-public class OpenUrl : MonoBehaviour
+namespace Blacktool.UI.Interactable.ButtonElement
 {
-    public string buttonURL;
-    Button button;
-
-    public void Open()
+    /// <summary>
+    /// This class is used to open url link
+    /// </summary>
+    public class OpenUrl : MonoBehaviour
     {
-        Application.OpenURL(buttonURL);
-    }
+        public string buttonURL;
+        Button button;
+
+        public void Open()
+        {
+            Application.OpenURL(buttonURL);
+        }
+    } 
 }
+

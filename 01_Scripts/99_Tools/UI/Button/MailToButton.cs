@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UI.Interactable.ButtonElement
+namespace Blacktool.UI.Interactable.ButtonElement
 {
     /// <summary>
     /// This class is used to send an Email at the m_URL

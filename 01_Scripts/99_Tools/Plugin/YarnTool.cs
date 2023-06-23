@@ -6,9 +6,11 @@ using UnityEngine;
 using Yarn.Unity;
 #endif
 
-public class YarnTool : MonoBehaviour
+namespace Blacktool.Tools
 {
-    #if YARNSPINNER_PRESENT
+    public class YarnTool : MonoBehaviour
+    {
+#if YARNSPINNER_PRESENT
     public DialogueRunner dialogueRunner;
     public InMemoryVariableStorage variableStorage;
 
@@ -65,4 +67,5 @@ public class YarnTool : MonoBehaviour
 
     #endregion
 #endif
+    }
 }

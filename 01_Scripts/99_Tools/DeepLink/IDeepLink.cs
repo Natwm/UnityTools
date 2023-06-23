@@ -1,4 +1,4 @@
-﻿namespace DeepLink
+﻿namespace Blacktool.DeepLink
 {
     public interface IDeepLink
     {

@@ -1,6 +1,8 @@
 using System.Text.RegularExpressions;
 using UnityEngine;
 
+namespace Blacktool.Utils.Validator
+{
     /// <summary>
     /// This class is used to check if all elements given by the user match a corresponding regex  
     /// </summary>
@@ -103,5 +105,6 @@ using UnityEngine;
             return code != null && (Regex.IsMatch(code, ScanCodePattern) || Regex.IsMatch(code, ScanQRCodePattern) ||
                                     Regex.IsMatch(code, ManualScanQRCodePattern));
         }
-    
+
     }
+}

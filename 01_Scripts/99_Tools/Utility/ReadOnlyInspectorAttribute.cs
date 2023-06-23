@@ -3,7 +3,7 @@ using UnityEngine;
 #if UNITY_EDITOR
 #endif
 
-namespace Blackfoot.Tools.Utility
+namespace Blacktool.Utils
 {
     public class ReadOnlyInspector : PropertyAttribute
     {
