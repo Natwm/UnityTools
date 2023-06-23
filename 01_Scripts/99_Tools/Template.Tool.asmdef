@@ -1,0 +1,20 @@
+{
+    "name": "Template.Tool",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:7e6c142ada1cfb942acacd941f4b6e7d",
+        "GUID:dacfbb48a322fdf4e91f575577bc5ba7",
+        "GUID:27692d1fd558b4e48a6bc10c8994da64"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

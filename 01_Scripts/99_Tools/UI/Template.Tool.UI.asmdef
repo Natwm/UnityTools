@@ -1,0 +1,19 @@
+{
+    "name": "Template.Tool.UI",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:935e04903e38e1342b0fa1c772a22b2e",
+        "GUID:c817829219bfeaa449ad0774104b3539",
+        "GUID:952d9a0a3dc953b4b9cae351e9709c50"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
