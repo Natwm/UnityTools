@@ -206,4 +206,14 @@ public static class ListExtensions
         return subList;
     }
     
+    public static int GetIndex<T>(this List<T> list, T Value)
+    {
+        for (int listIndex = 0; listIndex < list.Count; listIndex++)
+        {
+            if (Equals(list[listIndex], Value))
+                return listIndex;
+        }
+
+        return -1;
+    }
 }

@@ -6,8 +6,6 @@ using UnityEngine.Serialization;
 
 namespace Blacktool.Backend
 {
-
-
     public class Tool_APIScriptableObject : ScriptableObject
     {
         [System.Serializable]

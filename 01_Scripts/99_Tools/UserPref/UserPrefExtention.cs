@@ -118,6 +118,21 @@ public static class UserPrefExtention
     }
     
     /// <summary>
+    /// Delete the value for the selected key
+    /// </summary>
+    /// <param name="key">The selected key</param>
+    /// <returns>Key existed and was deleted</returns>
+    public static bool DeleteValue(string key)
+    {
+        if (!PlayerPrefs.HasKey(key))
+        {
+            return false;
+        }
+        PlayerPrefs.DeleteKey(key);
+        return true;
+    }
+    
+    /// <summary>
     /// Adds the specified value to the existing value associated with the given key.
     /// If the key does not exist, it creates a new entry with the provided value.
     /// </summary>
@@ -264,6 +279,46 @@ public static class UserPrefExtention
                 {
                     double result = Convert.ToDouble(value) / Convert.ToDouble(data);
                     SetValue<T>(key, (T)Convert.ChangeType(result, typeof(T)));
+                }
+            }
+        }
+        else
+        {
+            throw new ArgumentException("T must be int, float, or double.");
+        }
+    }
+    
+    public static void SetValueIfGreater<T>(string key, T value) where T : struct, System.IConvertible
+    {
+        if (typeof(T) == typeof(int) || typeof(T) == typeof(float) || typeof(T) == typeof(double))
+        {
+            if (!GetValue<T>(key, out T data))
+                SetValue<T>(key, value);
+            else
+            {
+                if (typeof(T) == typeof(int))
+                {
+                    int result = Convert.ToInt32(value);
+                    int dataValue = Convert.ToInt32(data);
+                    if(dataValue < result)
+                        SetValue<T>(key, (T)Convert.ChangeType(result, typeof(T)));
+                    return;
+                }
+                else if (typeof(T) == typeof(float))
+                {
+                    float resultFloat = Convert.ToSingle(value);
+                    float fDataValue = Convert.ToSingle(data);
+                    if(fDataValue < resultFloat)
+                        SetValue<T>(key, (T)Convert.ChangeType(resultFloat, typeof(T)));
+                    return;
+                }
+                else if (typeof(T) == typeof(double))
+                {
+                    double resultFloat = Convert.ToDouble(value);
+                    double dDataValue = Convert.ToDouble(data);
+                    if(dDataValue < resultFloat)
+                        SetValue<T>(key, (T)Convert.ChangeType(resultFloat, typeof(T)));
+                    return;
                 }
             }
         }
