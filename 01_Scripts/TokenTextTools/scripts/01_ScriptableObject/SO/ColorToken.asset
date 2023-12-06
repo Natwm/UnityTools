@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e0fbcd02bea574f8851932b61bbd56, type: 3}
+  m_Name: ColorToken
+  m_EditorClassIdentifier: 
+  selectedColor:
+  - colorblindness: 0
+    selectedColor: {r: 0, g: 0, b: 0, a: 0}
+  - colorblindness: 1
+    selectedColor: {r: 0, g: 0, b: 0, a: 0}
+  - colorblindness: 2
+    selectedColor: {r: 0, g: 0, b: 0, a: 0}
+  - colorblindness: 3
+    selectedColor: {r: 0, g: 0, b: 0, a: 0}
+  colorblindness: 0
+  style: 1
+  myFont: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  size: 1284

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd2e4a8b369fa947af0b0edc57d7450, type: 3}
+  m_Name: DialogueElement
+  m_EditorClassIdentifier: 
+  _Dialogue:
+  - {fileID: 11400000, guid: 47decf5ed4c807840aba7c45b9fced70, type: 2}
+  - {fileID: 11400000, guid: 62f14d22c9193b047a9434e29038904e, type: 2}
+  listOfUnskippableText: []
+  unskippableElement: 

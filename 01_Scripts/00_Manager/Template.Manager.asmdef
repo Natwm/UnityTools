@@ -1,4 +1,4 @@
 {
 	"name": "Template.Manager",
-	"references":[ "GUID:952d9a0a3dc953b4b9cae351e9709c50", "GUID:935e04903e38e1342b0fa1c772a22b2e" ]
+	"references":[ "GUID:952d9a0a3dc953b4b9cae351e9709c50", "GUID:935e04903e38e1342b0fa1c772a22b2e", "GUID:3177d4d368c34944a89e695adc8ec63b" ]
 }
