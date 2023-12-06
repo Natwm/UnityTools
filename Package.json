@@ -14,6 +14,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "git": "^0.1.5"
   },
   "unityDependencies": {
     "com.unity.collab-proxy": "2.0.3",
