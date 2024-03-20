@@ -1,8 +1,4 @@
-//using DG.Tweening;
-
-using Blacktool.Enum;
 using DG.Tweening;
-using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
@@ -10,29 +6,6 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public static class LevelLoader
 {
-    /// <summary>
-    /// Load the corresponding scene.
-    /// </summary>
-    /// <param name="levelLoading">Level to load.</param>
-    public static void OnLoadLevel(LevelLoading levelLoading)
-    {
-        switch (levelLoading)
-        {
-            case LevelLoading.PREVIOUSLEVEL:
-                LevelLoader.LoadPreviousLevel();
-                break;
-            case LevelLoading.RELOADLEVEL:
-                LevelLoader.ReloadLevel();
-                break;
-            case LevelLoading.NEXTLEVEL:
-                LevelLoader.LoadNextLevel();
-                break;
-            case LevelLoading.FIRSTLEVEL:
-                LevelLoader.LoadLevelByIndex(0);
-                break;
-        }
-    }
-
     /// <summary>
     /// Reload the current level.
     /// </summary>
