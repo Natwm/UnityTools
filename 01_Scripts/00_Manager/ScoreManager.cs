@@ -26,4 +26,9 @@ public class ScoreManager : Singleton<ScoreManager>
             PlayerPrefs.SetInt("Best Score", currentScore);
         }
     }
+
+    public int GetCurrentScore()
+    {
+        throw new NotImplementedException();
+    }
 }
